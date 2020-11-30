@@ -1,0 +1,104 @@
+
+            html, body {
+
+                position: relative;
+                margin: 0;
+                background-image: url('https://img00.deviantart.net/16de/i/2013/004/3/b/bruce_wallpaper__right__by_yalestewart-d5qfu12.png');
+                background-size: cover;
+                font: white;
+                background-repeat: no-repeat;
+            }
+            :root{
+                --color:#ffc600;
+                --size:10px
+            }
+            input{
+                font-size: 40px;
+                font-family: cursive;
+                font:white;
+                height: 100px;
+                width: 300px;
+                border-radius: 30px;
+                border: 5px solid black;
+                transition: .8s ease-out ;
+            }
+            input:hover{    
+                border: 5px solid gold;
+                border-radius: 30px;
+                cursor:cell;
+                background: white;
+                transition: .8s ease-out ;
+             }
+            .buttons{
+                position: fixed;
+                top:0;
+                display:flex;
+                left:0;
+                font-size: 40px;
+                flex-direction: column;
+                justify-content: space-evenly;
+                background: url('https://media.istockphoto.com/vectors/bunting-flags-banner-background-sports-event-vector-id518626528?k=6&m=518626528&s=170667a&w=0&h=URyUiCzGci_-9KL8FzHbL-LrdI_Hw_axzJoVhe1s1mw=');
+                background-size: cover;
+                padding: 0px 30px;
+                bottom: 0;
+                flex:1;
+            }
+            .forflex{
+                margin-top: -90px;
+                position: relative;
+                display: flex;
+                margin-left: 20%;
+                justify-content:center ;
+                flex-direction:column;
+                align-items: center;
+                padding:50px;
+            }
+            canvas{
+                margin-top: 20px;
+                border-radius: 20px;
+                border: 15px solid white;
+                background-color: white;
+                transition: .8s ease-out;
+                margin-bottom: -15px;
+                right:0;
+                max-width: 100%;
+            }
+            canvas:hover{
+                border-radius: 20px;
+                border: 15px solid gold;
+                transition: .8s ease-out;
+                cursor: crosshair;
+            }
+            h1{
+                font-family: cursive;
+                font-size: 70px;
+                font: white;
+                margin-bottom:-10px ;
+            }
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100px;
+    width: auto;
+    background-color: aliceblue;
+    padding:10px;
+    border-radius: 30px;
+    border: 5px solid black;
+    transition: .8s ease-out ;
+    text-align: center;
+    margin-bottom: 100px;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+p:hover{    
+    border: 5px solid gold;
+    border-radius: 30px;
+    cursor:cell;
+    background: white;
+    transition: .8s ease-out ;
+ }
+ p input{
+     width: auto;
+     height: 30px;
+ }
