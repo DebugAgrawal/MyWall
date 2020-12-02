@@ -9,7 +9,7 @@
 * #### Erase a particular part if needed
 * #### Clear the canvas
 ---
- <b>See the [DEMO](https://twitter.com/debugagrawal/status/1315994745265549312) how it works or [try yourself.](https://debugagrawal.github.io/MyWall/)</b>
+ <b>See the [DEMO](https://twitter.com/debugagrawal/status/1315994745265549312) how it works or [try yourself.](https://debugagrawal.github.io/MyWall)</b>
 ---
 
 
